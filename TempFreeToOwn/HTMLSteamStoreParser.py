@@ -3,7 +3,7 @@ from colorama import init, Fore, Style
 from urllib import request, response
 init()
 
-def Error(errorMsg):
+def Error(errorMsg): 
     print(Fore.RED + errorMsg + Style.RESET_ALL)
 
 class HTMLSteamStoreParser:
